@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#4AD650">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginBottom="70dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/carrr"
+            android:id="@+id/car"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEO"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/ceo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="charging electric online"
+            android:textSize="20dp"
+            android:id="@+id/charging"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hint="아이디"
+            android:maxLength="10"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:maxLength="10"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:backgroundTint="@color/white"
+            android:id="@+id/btn_login"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
